@@ -1,0 +1,178 @@
+@media (max-width: 1250px) {
+     
+    .hedind__page.about__page {
+   margin: 0 15px;
+}
+.wrapper {
+    margin: 0 15px;
+    min-height: 600px;
+
+}
+.about_box {
+    margin: 40px 15px;
+}
+}
+@media (max-width: 1170px) {
+    .dream__item-img img {
+        width: 200px;
+        height: 200px;
+        
+
+    }
+    .style {
+       max-width: 1140px; 
+    }
+    .dream__item {
+        width: 48%;
+  
+}
+}
+@media (max-width: 900px) {
+    .header {
+        padding:10px 10px;
+  
+}
+}
+@media (max-width: 780px) {
+    .item_data img {
+    width: 200px;
+    margin-top: 166px;
+    }
+    .item_data p {
+    font-size: 14px;
+    line-height: 24px;
+    
+    }
+    .item_data h3 {
+    font-size: 20px;
+    line-height: 36px;
+    
+}
+@media (max-width: 640px) {
+    .left__menu,
+    .right__menu {
+         display: none;
+       
+    }
+    .icon_item h3 {
+    font-size: 16px;
+    line-height: 17px;
+    
+}
+    .stats {
+    font-size: 35px;
+    line-height: 40px;
+   
+}
+    .icon_item-img {
+    width: 120px;
+    height: 110px;
+}
+     .icon_item-img img {
+    width: 105px;
+    height: 105px;
+}
+    .menu__list {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:  105px;
+        width: 100%;
+        text-align: center;
+        z-index: 5;
+        display: none;
+        border-top: 2px solid #000 ;
+
+    }
+    .logo {
+        margin-top: 0;
+    }
+    
+    .btn__menu {
+        display: block;
+        cursor: pointer;
+        
+    }
+    .menu__list li {
+        padding: 10px;
+        border-bottom: 2px solid #fff;
+        background-color: #FC9EAC;
+        color: #fff;
+    }
+    .hedind__page h2 {
+    font-size: 40px;
+   
+    }
+    .subtitle {
+    font-size: 24px;
+    }
+    .about_box {
+    padding: 0 10px;
+}
+}       
+}   @media (max-width: 595px) {
+    .item_data img {
+    width: 165px;
+    height: 180px;
+    margin: 20px auto;
+    
+}
+
+    .about_box {
+    flex-wrap: wrap;
+    margin: 50px auto 40px auto;
+}   
+    .item_data {
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    }
+
+}
+@media (max-width: 540px){
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .icon_item {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 465px){
+    .wrapper {
+    min-height: 600px;
+    padding: 109px 0;
+}
+}
+@media (max-width: 410px){
+    .subtitle {
+        font-size: 18px;
+    }
+    
+    .hedind__page h2 {
+        font-size: 35px;
+    }
+
+}
+@media (max-width: 340px){
+    .subtitle {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width:641px){
+    .left__menu,
+    .right__menu {
+       display: flex !important; 
+    } 
+}   
+
+
+
+
+
+
+
